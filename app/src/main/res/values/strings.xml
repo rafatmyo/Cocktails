@@ -1,0 +1,21 @@
+<resources>
+    <string name="app_name">Cocktails</string>
+
+    <string-array name="cocktails">
+        <item>Bloody Mary</item>
+        <item>Cosmopolitan</item>
+        <item>Cuba Libre</item>
+        <item>Daiquiri</item>
+        <item>Gin Tonic</item>
+        <item>Manhattan</item>
+        <item>Margarita</item>
+        <item>Martini</item>
+        <item>Mojito</item>
+        <item>Negroni</item>
+        <item>Old Fashioned</item>
+        <item>Paloma</item>
+        <item>Sangria</item>
+        <item>Spirtz</item>
+        <item>Tom Collins</item>
+    </string-array>
+</resources>
