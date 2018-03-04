@@ -14,6 +14,26 @@ public class MainActivity extends AppCompatActivity {
     Toolbar toolbar;
     ListView listView;
 
+    String[] drinknames = {"Bloody Mary", "Cosmopolitan", "Cuba Libre", "Daiquiri", "Gin Tonic", "Manhattan", "Margarita", "Mojito"
+            , "Negroni", "Martini", "Old Fashioned", "Paloma", "Sangria", "Spirtz", "Tom Collins"};
+    int[] drinkpics = {
+            R.drawable.bloodymary,
+            R.drawable.cosmo,
+            R.drawable.cuba,
+            R.drawable.daiquiri,
+            R.drawable.gintonic,
+            R.drawable.manhattan,
+            R.drawable.margarita,
+            R.drawable.martini,
+            R.drawable.mojito,
+            R.drawable.negroni,
+            R.drawable.oldfashioned,
+            R.drawable.paloma,
+            R.drawable.sangria,
+            R.drawable.spritz,
+            R.drawable.tomcollins
+    };
+
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
