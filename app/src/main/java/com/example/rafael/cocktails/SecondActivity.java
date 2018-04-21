@@ -1,9 +1,11 @@
 package com.example.rafael.cocktails;
 
+import android.os.TestLooperManager;
 import android.support.v7.app.AppCompatActivity;
 import android.support.v7.widget.Toolbar;
 import android.os.Bundle;
 import android.widget.ImageView;
+import android.widget.TextView;
 
 //import android.widget.Toolbar;
 //android.support.v7.widget.Toolbar
@@ -12,6 +14,8 @@ public class SecondActivity extends AppCompatActivity {
 
     Toolbar mToolbar;
     ImageView drink;
+    TextView recipe;
+    TextView directions;
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
@@ -20,12 +24,16 @@ public class SecondActivity extends AppCompatActivity {
 
         mToolbar = (Toolbar) findViewById(R.id.toolbar1);
         drink = (ImageView) findViewById(R.id.imageView);
+        recipe = (TextView) findViewById(R.id.textView);
+        directions = (TextView) findViewById(R.id.textView2);
 
         Bundle bundle = getIntent().getExtras();
         if(bundle != null){
             mToolbar.setTitle(bundle.getString("CocktailName"));
             if(mToolbar.getTitle().toString().equalsIgnoreCase("Bloody Mary")){
                 drink.setImageDrawable(getResources().getDrawable(R.drawable.bloodymary));
+                recipe.setText(getResources().getString(R.string.Bloody_Mary));
+                directions.setText(getResources().getString(R.string.Bloody_Mary_dir));
             }else if(mToolbar.getTitle().toString().equalsIgnoreCase("Cosmopolitan")){
                 drink.setImageDrawable(getResources().getDrawable(R.drawable.cosmo));
             }else if(mToolbar.getTitle().toString().equalsIgnoreCase("Cuba Libre")){

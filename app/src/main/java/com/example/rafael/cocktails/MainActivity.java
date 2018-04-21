@@ -3,6 +3,7 @@ package com.example.rafael.cocktails;
 import android.content.Intent;
 import android.support.v7.app.AppCompatActivity;
 import android.os.Bundle;
+import android.widget.SearchView;
 import android.support.v7.widget.Toolbar;
 import android.view.View;
 import android.widget.AdapterView;
@@ -13,6 +14,8 @@ public class MainActivity extends AppCompatActivity {
 
     Toolbar toolbar;
     ListView listView;
+    SearchView searchView;
+
 
     String[] drinknames = {"Bloody Mary", "Cosmopolitan", "Cuba Libre", "Daiquiri", "Gin Tonic", "Manhattan", "Margarita", "Mojito"
             , "Negroni", "Martini", "Old Fashioned", "Paloma", "Sangria", "Spirtz", "Tom Collins"};
@@ -34,6 +37,8 @@ public class MainActivity extends AppCompatActivity {
             R.drawable.tomcollins
     };
 
+    //ArrayAdapter<String> adapter;
+
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
@@ -42,9 +47,23 @@ public class MainActivity extends AppCompatActivity {
         toolbar = (Toolbar) findViewById(R.id.toolbar);
         toolbar.setTitle(getResources().getString(R.string.app_name));
         listView = (ListView) findViewById(R.id.listView);
+        searchView = (SearchView) findViewById(R.id.searchView);
 
-        ArrayAdapter<String> mAdapater = new ArrayAdapter<String>(MainActivity.this,android.R.layout.simple_list_item_1,
+        final ArrayAdapter<String> mAdapater = new ArrayAdapter<String>(MainActivity.this,android.R.layout.simple_list_item_1,
                 getResources().getStringArray(R.array.cocktails));
+
+        searchView.setOnQueryTextListener(new SearchView.OnQueryTextListener() {
+            @Override
+            public boolean onQueryTextSubmit(String text) {
+                return false;
+            }
+
+            @Override
+            public boolean onQueryTextChange(String newText) {
+                mAdapater.getFilter().filter(newText);
+                return false;
+            }
+        });
 
         listView.setOnItemClickListener(new AdapterView.OnItemClickListener() {
             @Override
