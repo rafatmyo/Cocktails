@@ -19,24 +19,54 @@
         <item>Tom Collins</item>
     </string-array>
 
-    <string name="Bloody_Mary">4.5 cl (3 parts) Vodka\n
+    <string name="Bloody_Mary_eq">\u2022 A shaker or stirring glass\n
+        \u2022 Long glass
+    </string>
+
+    <string name="Bloody_Mary_r">
+        4.5 cl (3 parts) Vodka\n
         9 cl (6 parts) Tomato juice\n
         1.5 cl (1 part)Lemon juice\n
         2 to 3 dashes of Worcestershire Sauce\n
         Tabasco\n
         Celery\n
         Salt\n
-        Pepper</string>
+        Pepper
+    </string>
 
-    <string name="Bloody_Mary_dir">Stir gently, pour all ingredients into highball glass. Garnish.</string>
+    <string name="Bloody_Mary_dir">
+        Add plenty of ice and all of your ingredients to a shaker or stirring glass\n
+        If you’re using a shaker, tilt it backwards and forwards a few times to mix the ingredients without making the drink frothy. If you’re stirring, you can do so vigorously\n
+        Pour the mix into a glass. Top up with fresh ice if it’s not quite full\n
+        Add your garnishes. Any fresh herbs and a celery stick work well\n
+        Tabasco tip: if you’re making Bloody Marys for a group of people, make a jug without spice and let people add their own Tabasco.\n
+        Some like it hot, others not so much!
+    </string>
 
-    <string name="Cosmopolitan">4.5 cl (3 parts) Vodka\n
-        9 cl (6 parts) Tomato juice\n
-        1.5 cl (1 part)Lemon juice\n
-        2 to 3 dashes of Worcestershire Sauce\n
-        Tabasco\n
-        Celery\n
-        Salt\n
-        Pepper</string>
+
+    <string name="Cosmopolitan_eq">\u2022 A shaker or stirring glass\n
+        \u2022 A bar spoon (or teaspoon)\n
+        \u2022 A strainer\n
+        \u2022 A match \n
+        \u2022 Martini glass
+    </string>
+
+    <string name="Cosmopolitan_r">
+        1 ½ parts vodka\n
+        ½ part Cointreau liqueur\n
+        1 parts cranberry juice\n
+        ¼ part fresh lime juice\n
+        Cubed ice\n
+        To garnish: orange zest
+    </string>
+
+    <string name="Cosmopolitan_dir">
+        1. Chill your cocktail glass (the easiest way is to fill it with ice)\n
+        2. Put plenty of ice and all of the ingredients into your shaker or stirring glass and shake or stir vigorously for about 20 seconds\n
+        3. Strain the mix into a cocktail glass\n
+        4. Cut a piece of orange peel about the size of your thumb (be careful not to bend it). Hold the piece of orange peel between finger and thumb over the glass, and use a match to gently warm it for about 20 seconds\n
+        5. Then bend the peel so it releases oil onto the lighted match, igniting a flame that will settle on the surface of the drink.
+    </string>
+
 
 </resources>

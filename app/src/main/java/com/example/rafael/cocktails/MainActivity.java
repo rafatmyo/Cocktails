@@ -49,6 +49,8 @@ public class MainActivity extends AppCompatActivity {
         listView = (ListView) findViewById(R.id.listView);
         searchView = (SearchView) findViewById(R.id.searchView);
 
+
+
         final ArrayAdapter<String> mAdapater = new ArrayAdapter<String>(MainActivity.this,android.R.layout.simple_list_item_1,
                 getResources().getStringArray(R.array.cocktails));
 

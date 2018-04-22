@@ -4,6 +4,7 @@ import android.os.TestLooperManager;
 import android.support.v7.app.AppCompatActivity;
 import android.support.v7.widget.Toolbar;
 import android.os.Bundle;
+import android.text.method.ScrollingMovementMethod;
 import android.widget.ImageView;
 import android.widget.TextView;
 
@@ -16,26 +17,39 @@ public class SecondActivity extends AppCompatActivity {
     ImageView drink;
     TextView recipe;
     TextView directions;
+    TextView equipment;
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_second);
 
+
         mToolbar = (Toolbar) findViewById(R.id.toolbar1);
         drink = (ImageView) findViewById(R.id.imageView);
         recipe = (TextView) findViewById(R.id.textView);
         directions = (TextView) findViewById(R.id.textView2);
+        equipment = (TextView) findViewById(R.id.equipment);
+
+
+        recipe.setMovementMethod(new ScrollingMovementMethod());
+        directions.setMovementMethod(new ScrollingMovementMethod());
 
         Bundle bundle = getIntent().getExtras();
         if(bundle != null){
             mToolbar.setTitle(bundle.getString("CocktailName"));
             if(mToolbar.getTitle().toString().equalsIgnoreCase("Bloody Mary")){
                 drink.setImageDrawable(getResources().getDrawable(R.drawable.bloodymary));
-                recipe.setText(getResources().getString(R.string.Bloody_Mary));
+                equipment.setText(getResources().getString(R.string.Bloody_Mary_eq));
+                recipe.setText(getResources().getString(R.string.Bloody_Mary_r));
                 directions.setText(getResources().getString(R.string.Bloody_Mary_dir));
+
             }else if(mToolbar.getTitle().toString().equalsIgnoreCase("Cosmopolitan")){
                 drink.setImageDrawable(getResources().getDrawable(R.drawable.cosmo));
+                equipment.setText(getResources().getString(R.string.Cosmopolitan_eq));
+                recipe.setText(getResources().getString(R.string.Cosmopolitan_r));
+                directions.setText(getResources().getString(R.string.Cosmopolitan_dir));
+
             }else if(mToolbar.getTitle().toString().equalsIgnoreCase("Cuba Libre")){
                 drink.setImageDrawable(getResources().getDrawable(R.drawable.cuba));
             }else if(mToolbar.getTitle().toString().equalsIgnoreCase("Daiquiri")){
