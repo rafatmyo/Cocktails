@@ -68,5 +68,29 @@
         5. Then bend the peel so it releases oil onto the lighted match, igniting a flame that will settle on the surface of the drink.
     </string>
 
+    <string name="Cuba_Libre_eq">\u2022 A shaker or stirring glass\n
+        \u2022 A bar spoon (or teaspoon)\n
+        \u2022 A strainer\n
+        \u2022 A match \n
+        \u2022 Martini glass
+    </string>
+
+    <string name="Cuba_Libre_r">
+        1 ½ parts vodka\n
+        ½ part Cointreau liqueur\n
+        1 parts cranberry juice\n
+        ¼ part fresh lime juice\n
+        Cubed ice\n
+        To garnish: orange zest
+    </string>
+
+    <string name="Cuba_Libre_dir">
+        1. Chill your cocktail glass (the easiest way is to fill it with ice)\n
+        2. Put plenty of ice and all of the ingredients into your shaker or stirring glass and shake or stir vigorously for about 20 seconds\n
+        3. Strain the mix into a cocktail glass\n
+        4. Cut a piece of orange peel about the size of your thumb (be careful not to bend it). Hold the piece of orange peel between finger and thumb over the glass, and use a match to gently warm it for about 20 seconds\n
+        5. Then bend the peel so it releases oil onto the lighted match, igniting a flame that will settle on the surface of the drink.
+    </string>
+
 
 </resources>
