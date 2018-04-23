@@ -1,10 +1,13 @@
 package com.example.rafael.cocktails;
 
+import android.content.Intent;
 import android.os.TestLooperManager;
 import android.support.v7.app.AppCompatActivity;
 import android.support.v7.widget.Toolbar;
 import android.os.Bundle;
 import android.text.method.ScrollingMovementMethod;
+import android.view.animation.Animation;
+import android.view.animation.AnimationUtils;
 import android.widget.ImageView;
 import android.widget.TextView;
 
@@ -91,6 +94,11 @@ public class SecondActivity extends AppCompatActivity {
                 drink.setImageDrawable(getResources().getDrawable(R.drawable.tomcollins));
             }
         }
+
+        Animation myanim = AnimationUtils.loadAnimation(this, R.anim.mytransition);
+        drink.startAnimation(myanim);
+
+
 
     }
 }
