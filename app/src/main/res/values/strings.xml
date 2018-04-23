@@ -68,28 +68,55 @@
         5. Then bend the peel so it releases oil onto the lighted match, igniting a flame that will settle on the surface of the drink.
     </string>
 
-    <string name="Cuba_Libre_eq">\u2022 A shaker or stirring glass\n
-        \u2022 A bar spoon (or teaspoon)\n
-        \u2022 A strainer\n
-        \u2022 A match \n
-        \u2022 Martini glass
-    </string>
+    <string name="Cuba_Libre_eq">\u2022 Long glass </string>
 
     <string name="Cuba_Libre_r">
-        1 ½ parts vodka\n
-        ½ part Cointreau liqueur\n
-        1 parts cranberry juice\n
-        ¼ part fresh lime juice\n
-        Cubed ice\n
-        To garnish: orange zest
+        1 parts Bacardi Oro\n
+        2 wedges of lime\n
+        2 parts cola\n
+        Cubed ice
     </string>
 
     <string name="Cuba_Libre_dir">
-        1. Chill your cocktail glass (the easiest way is to fill it with ice)\n
-        2. Put plenty of ice and all of the ingredients into your shaker or stirring glass and shake or stir vigorously for about 20 seconds\n
-        3. Strain the mix into a cocktail glass\n
-        4. Cut a piece of orange peel about the size of your thumb (be careful not to bend it). Hold the piece of orange peel between finger and thumb over the glass, and use a match to gently warm it for about 20 seconds\n
-        5. Then bend the peel so it releases oil onto the lighted match, igniting a flame that will settle on the surface of the drink.
+        1. To create this legendary cocktail, fill a glass with lots of ice\n
+        2. Squeeze and drop 2 lime wedges into the glass, coating the ice well with the juices (it all makes a difference)\n
+        3. Pour in the Bacardi Oro, top up with chilled cola and stir gently
+    </string>
+
+    <string name="Daiquiri_eq">
+        \u2022 A shaker\n
+        \u2022 A strainer\n
+        \u2022 Cocktail glass
+    </string>
+
+    <string name="Daiquiri_r">
+        3 parts Bacardi Carta Blanco\n
+        1 part lime juice\n
+        2 tsp sugar\n
+        Cubed ice
+    </string>
+
+    <string name="Daiquiri_dir">
+        1. Chill your glass (the easiest way is to fill it with ice)\n
+        2. Add the lime and sugar to your cocktail shaker and stir until the sugar dissolves\n
+        3. Put lots of ice and the remaining ingredients into the shaker and shake hard for about 30 seconds to chill and dilute the mix\n
+        4. Strain into the glass. You don’t need a garnish for this drink, but a lime wedge or pinwheel (a pinwheel is just a thin slice) won’t go amiss
+    </string>
+
+    <string name="Gintonic_eq">
+        \u2022 Bar spoon
+    </string>
+
+    <string name="Gintonic_r">
+        1 part Bombay Sapphire gin\n
+        2 parts Premium Tonic Water\n
+        To garnish: Lime or lemon wedge
+    </string>
+
+    <string name="Gintonic_dir">
+        1. Add the ice to your glass and squeeze in the juice of a lime wedge. Run the lime wedge around the rim of the glass\n
+        2. Add the gin and tonic\n
+        3. Stir gently
     </string>
 
 

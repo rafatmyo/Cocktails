@@ -19,6 +19,7 @@ public class SecondActivity extends AppCompatActivity {
     TextView directions;
     TextView equipment;
 
+
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
@@ -52,10 +53,22 @@ public class SecondActivity extends AppCompatActivity {
 
             }else if(mToolbar.getTitle().toString().equalsIgnoreCase("Cuba Libre")){
                 drink.setImageDrawable(getResources().getDrawable(R.drawable.cuba));
+                equipment.setText(getResources().getString(R.string.Cuba_Libre_eq));
+                recipe.setText(getResources().getString(R.string.Cuba_Libre_r));
+                directions.setText(getResources().getString(R.string.Cuba_Libre_dir));
+
             }else if(mToolbar.getTitle().toString().equalsIgnoreCase("Daiquiri")){
                 drink.setImageDrawable(getResources().getDrawable(R.drawable.daiquiri));
+                equipment.setText(getResources().getString(R.string.Daiquiri_eq));
+                recipe.setText(getResources().getString(R.string.Daiquiri_r));
+                directions.setText(getResources().getString(R.string.Daiquiri_dir));
+
             }else if(mToolbar.getTitle().toString().equalsIgnoreCase("Gin Tonic")){
                 drink.setImageDrawable(getResources().getDrawable(R.drawable.gintonic));
+                equipment.setText(getResources().getString(R.string.Gintonic_eq));
+                recipe.setText(getResources().getString(R.string.Gintonic_r));
+                directions.setText(getResources().getString(R.string.Gintonic_dir));
+
             }else if(mToolbar.getTitle().toString().equalsIgnoreCase("Manhattan")){
                 drink.setImageDrawable(getResources().getDrawable(R.drawable.manhattan));
             }else if(mToolbar.getTitle().toString().equalsIgnoreCase("Margarita")){
