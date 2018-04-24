@@ -74,24 +74,63 @@ public class SecondActivity extends AppCompatActivity {
 
             }else if(mToolbar.getTitle().toString().equalsIgnoreCase("Manhattan")){
                 drink.setImageDrawable(getResources().getDrawable(R.drawable.manhattan));
+                equipment.setText(getResources().getString(R.string.Manhattan_eq));
+                recipe.setText(getResources().getString(R.string.Manhattan_r));
+                directions.setText(getResources().getString(R.string.Manhattan_dir));
+
             }else if(mToolbar.getTitle().toString().equalsIgnoreCase("Margarita")){
                 drink.setImageDrawable(getResources().getDrawable(R.drawable.margarita));
+                equipment.setText(getResources().getString(R.string.Margarita_eq));
+                recipe.setText(getResources().getString(R.string.Margarita_r));
+                directions.setText(getResources().getString(R.string.Margarita_dir));
+
             }else if(mToolbar.getTitle().toString().equalsIgnoreCase("Martini")){
                 drink.setImageDrawable(getResources().getDrawable(R.drawable.martini));
+                equipment.setText(getResources().getString(R.string.Martini_eq));
+                recipe.setText(getResources().getString(R.string.Martini_r));
+                directions.setText(getResources().getString(R.string.Martini_dir));
+
             }else if(mToolbar.getTitle().toString().equalsIgnoreCase("Mojito")){
                 drink.setImageDrawable(getResources().getDrawable(R.drawable.mojito));
+                equipment.setText(getResources().getString(R.string.Mojito_eq));
+                recipe.setText(getResources().getString(R.string.Mojito_r));
+                directions.setText(getResources().getString(R.string.Mojito_dir));
+
             }else if(mToolbar.getTitle().toString().equalsIgnoreCase("Negroni")){
                 drink.setImageDrawable(getResources().getDrawable(R.drawable.negroni));
+                equipment.setText(getResources().getString(R.string.Negroni_eq));
+                recipe.setText(getResources().getString(R.string.Negroni_r));
+                directions.setText(getResources().getString(R.string.Negroni_dir));
+
             }else if(mToolbar.getTitle().toString().equalsIgnoreCase("Old Fashioned")){
                 drink.setImageDrawable(getResources().getDrawable(R.drawable.oldfashioned));
+                equipment.setText(getResources().getString(R.string.Old_Fashioned_eq));
+                recipe.setText(getResources().getString(R.string.Old_Fashioned_r));
+                directions.setText(getResources().getString(R.string.Old_Fashioned_dir));
+
             }else if(mToolbar.getTitle().toString().equalsIgnoreCase("Paloma")){
                 drink.setImageDrawable(getResources().getDrawable(R.drawable.paloma));
+                equipment.setText(getResources().getString(R.string.Paloma_eq));
+                recipe.setText(getResources().getString(R.string.Paloma_r));
+                directions.setText(getResources().getString(R.string.Paloma_dir));
+
             }else if(mToolbar.getTitle().toString().equalsIgnoreCase("Sangria")){
                 drink.setImageDrawable(getResources().getDrawable(R.drawable.sangria));
+                equipment.setText(getResources().getString(R.string.Sangria_eq));
+                recipe.setText(getResources().getString(R.string.Sangria_r));
+                directions.setText(getResources().getString(R.string.Sangria_dir));
+
             }else if(mToolbar.getTitle().toString().equalsIgnoreCase("Spirtz")){
                 drink.setImageDrawable(getResources().getDrawable(R.drawable.spritz));
+                equipment.setText(getResources().getString(R.string.Spritz_eq));
+                recipe.setText(getResources().getString(R.string.Spritz_r));
+                directions.setText(getResources().getString(R.string.Sprtiz_dir));
+
             }else if(mToolbar.getTitle().toString().equalsIgnoreCase("Tom Collins")){
                 drink.setImageDrawable(getResources().getDrawable(R.drawable.tomcollins));
+                equipment.setText(getResources().getString(R.string.Tom_Collins_eq));
+                recipe.setText(getResources().getString(R.string.Tom_Collins_r));
+                directions.setText(getResources().getString(R.string.Tom_Collins_dir));
             }
         }
 

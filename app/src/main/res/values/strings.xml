@@ -119,5 +119,217 @@
         3. Stir gently
     </string>
 
+    <string name="Manhattan_eq">
+        \u2022 A shaker or stirring glass\n
+        \u2022 A bar spoon (a teaspoon will do)\n
+        \u2022 A strainer
+    </string>
+
+    <string name="Manhattan_r">
+        2 parts rye whiskey\n
+        ½ part Martini Rosso\n
+        Optional: 1 dash Angostura Bitters\n
+        Cubed ice\n
+        To garnish: A lemon twist or a maraschino cherry
+    </string>
+
+    <string name="Manhattan_dir">
+        1. Chill your glass (the easiest way is to fill it with ice)\n
+        2. Add all of the ingredients to a shaker/stirring glass containing plenty of ice and stir gently for around 30 seconds to a minute\n
+        3. Strain the mixture into the glass and garnish with a lemon twist or cherry.
+    </string>
+
+    <string name="Margarita_eq">
+        \u2022 A shaker\n
+        \u2022 A strainer\n
+        \u2022 A sieve\n
+        \u2022 Cocktail glass
+    </string>
+
+    <string name="Margarita_r">
+        1 part Cazadores Tequila\n
+        ½ part triple sec liqueur\n
+        ½ part lime juice\n
+        1 lime wedge\n
+        Salt\n
+        Cubed ice
+    </string>
+
+    <string name="Margarita_dir">
+        1. Chill your glass (the easiest way is to fill it with ice)\n
+        2. Put lots of ice and all of the ingredients into a shaker, then shake hard for about 30 seconds to chill the liquid really well\n
+        3. Run a lime wedge around the outside of the rim of your glass before rolling the rim in salt\n
+        4. Double strain the mix into the glass
+    </string>
+
+    <string name="Martini_eq">
+        \u2022 A shaker\n
+        \u2022 A bar spoon\n
+        \u2022 A strainer\n
+        \u2022 Martini glass
+    </string>
+
+    <string name="Martini_r">
+        2 oz Tanqueray Gin\n
+        Splash of dry Vermouth\n
+        3 Olives\n
+        Cubed ice
+    </string>
+
+    <string name="Martini_dir">
+        1. Chill your glass (the easiest way is to fill it with ice or keep them in the freezer)\n
+        2. Put lots of ice in the shaker\n
+        3. Add the Gin and the Vermouth\n
+        4. Stir the ingredients with the bar spoon until the whole shaker is chill\n
+        5. Place the strainer on top and fill the cold martini glass\n
+        6. Finish up by placing 3 Olives with a cocktail toothpick in the Martini.
+    </string>
+
+    <string name="Mojito_eq">
+        \u2022 A muddler (or rolling pin)\n
+        \u2022 A spoon\n
+        \u2022 A long glass
+    </string>
+
+    <string name="Mojito_r">
+        2 parts Bacardi Carta Blanca\n
+        ½ fresh lime\n
+        12 fresh mint leaves\n
+        2 heaped bar spoons of caster sugar\n
+        Dash of soda water\n
+        Cubed ice\n
+        Crushed ice\n
+        To Garnish: Sprig of Fresh Mint
+    </string>
+
+    <string name="Mojito_dir">
+        1. Put the four lime wedges into a glass, then add the sugar and muddle (squish everything together) to release the lime juice\n
+        2. Put the mint leaves on one hand and clap. This bruises the leaves and releases the aroma. Rub the mint leaves around the rim of the glass and drop them in. Use a muddler, bar spoon (or even a rolling pin) to gently push the mint down into the lime juice\n
+        3. Half fill the glass with crushed ice and pour in the Bacardi Carta Blanca. Stir the mix together until the sugar dissolves\n
+        4. Top up with crushed ice, a splash of the soda water and garnish it with a sprig of mint
+    </string>
+
+    <string name="Negroni_eq">
+        \u2022 Short glass\n
+        \u2022 A spoon
+    </string>
+
+    <string name="Negroni_r">
+        1 part Martini Rosso\n
+        1 part Martini Bitters\n
+        1 part Bombay Sapphire gin\n
+        Orange slice\n
+        Cubed ice
+    </string>
+
+    <string name="Negroni_dir">
+        1. Add equal parts of Martini Rosso, Bombay Sapphire and Martini Bitter to your glass\n
+        2. Add plenty of ice to your glass\n
+        3. Stir with a bar spoon and drop in a fresh orange slice
+    </string>
+
+    <string name="Old_Fashioned_eq">
+        \u2022 Old Fashioned glass\n
+    </string>
+
+    <string name="Old_Fashioned_r">
+        4 dashes Angostura bitters\n
+        1 tsp Sugar\n
+        1 Orange wheel\n
+        1 Maraschino cherry\n
+        1 splash\n
+        Club soda\n
+        2 parts\n
+        Bourbon
+    </string>
+
+    <string name="Old_Fashioned_dir">
+        1. In an Old Fashioned glass, muddle the bitters, sugar, orange wheel, cherry and a splash of soda.\n
+        2. Remove the orange rind, add the bourbon and fill with ice.\n
+        3. Garnish with a fresh orange wheel and cherry.
+    </string>
+
+    <string name="Paloma_eq">
+        \u2022 Highball glass\n
+        \u2022 A bar spoon
+    </string>
+
+    <string name="Paloma_r">
+        Kosher salt\n
+        1 grapefruit wedge\n
+        ¼ cup fresh grapefruit juice\n
+        1 tablespoon fresh lime juice\n
+        1 teaspoon sugar\n
+        ¼ cup mescal or tequila\n
+        ¼ cup club soda
+    </string>
+
+    <string name="Paloma_dir">
+        1. Pour some kosher salt on a plate. Rub half of rim of a highball glass with grapefruit wedge; dip rim of glass in salt.\n
+        2. Combine grapefruit juice, lime juice, and sugar in glass.\n
+        3. Stir until sugar is dissolved.\n
+        4. Stir in mescal, add ice, and top off with club soda.\n
+        5. Garnish with grapefruit wedge.\n
+    </string>
+
+    <string name="Sangria_eq">
+        \u2022 A muddler\n
+        \u2022 A bar spoon\n
+        \u2022 Stemmed glass
+    </string>
+
+    <string name="Sangria_r">
+        1 large slice of fresh watermelon, cut into 1 inch cubes\n
+        Juice of 1½ limes\n
+        10ml stem-ginger syrup\n
+        60ml Bacardi Carta Blanco\n
+        Martini Prosecco\n
+        Crushed ice\n
+        Zest of ½ lime
+    </string>
+
+    <string name="Sangria_dir">
+        1. Muddle 3 cubes of fresh watermelon in a highball tumbler, then stir in the lime juice, stem-ginger syrup and rum\n
+        2. Top it up with Prosecco and finish with some crushed ice, the remaining watermelon cubes and lime zest, then serve
+    </string>
+
+    <string name="Spritz_eq">
+        \u2022 Wine Glass
+    </string>
+
+    <string name="Spritz_r">
+        3 parts prosecco\n
+        2 parts Aperol (see Tips for where to buy)\n
+        1 part soda water\n
+        Slice of orange
+    </string>
+
+    <string name="Sprtiz_dir">
+        1. Pour over ice and top with a slice of orange (we like to serve ours in a large bowl-style wine glass). Enjoy!
+    </string>
+
+    <string name="Tom_Collins_eq">
+        \u2022 Highball glass\n
+        \u2022 8" clear non-bendy straw\n
+        \u2022 A spoon
+    </string>
+
+    <string name="Tom_Collins_r">
+        1 Parts Bombay Sapphire Gin\n
+        Juice of half a lemon\n
+        2 Parts Soda Water\n
+        2 tsp Caster Sugar\n
+        Lemon Wedge\n
+        Ice\n
+        To garnish: A large lemon wedge
+    </string>
+
+    <string name="Tom_Collins_dir">
+        1. Add the freshly squeezed lemon juice, sugar and Bombay Sapphire to a clean highball glass and stir\n
+        2. Add plenty of cubed ice and stir again\n
+        3. Top with soda water and stir for a final time\n
+        4. Garnish with the lemon wedge then serve
+    </string>
+
 
 </resources>
