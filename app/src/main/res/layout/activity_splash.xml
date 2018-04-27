@@ -25,6 +25,7 @@
             android:layout_height="wrap_content"
             android:layout_gravity="center"
             android:layout_margin="10dp"
+            android:fontFamily="@font/amiko"
             android:text="You deserve a drink."
             android:textColor="@color/colorPrimary"
             android:textSize="23sp"

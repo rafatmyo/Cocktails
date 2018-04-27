@@ -54,6 +54,7 @@ public class MainActivity extends AppCompatActivity {
 
         toolbar = (Toolbar) findViewById(R.id.toolbar);
         toolbar.setTitle(getResources().getString(R.string.app_name));
+
         listView = (ListView) findViewById(R.id.listView);
         searchView = (SearchView) findViewById(R.id.searchView);
 
